@@ -9,4 +9,4 @@ It does include:
 
 Tips:
 OpenCV should have an Environment Variable named OPENCV_DIR which should reference to opencv library root 
-(That means this: <your/opencv/root>/opencv-x.x.x, where x.x.x - is for opencv particular version for the case if you have multiple ones).
+(That means this: [your/opencv/root]/opencv-x.x.x, where x.x.x - is for opencv particular version for the case if you have multiple ones).
