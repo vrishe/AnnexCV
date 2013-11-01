@@ -49,8 +49,8 @@ namespace cv
 	bool initModule_annex()
 	{
 		bool bAll = true;
-		bAll &= !SUSAN_info_auto.name().empty();
-		bAll &= !TanTriggsNormalization_info_auto.name().empty();
+		bAll &= createSUSAN_hidden()->info()					!= NULL;
+		bAll &= createTanTriggsNormalization_hidden()->info()	!= NULL;
 		return bAll;
 	}
 

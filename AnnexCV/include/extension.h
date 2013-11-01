@@ -43,6 +43,19 @@
 #endif
 
 
+#define FOR_MATRIX2D(matrix, elemtype, elemname, code)							\
+/*	_ASSERT(matrix.channels() == 1 && matrix.dims == 2)*/						\
+	for (int __r = 0; __r < matrix.rows; ++__r)									\
+	{																			\
+		elemtype *__row = const_cast<elemtype *>(matrix.ptr<elemtype>(__r));	\
+		for (int __c = 0; __c < matrix.cols; ++__c)								\
+		{																		\
+			elemtype &elemname = __row[__c];									\
+			code																\
+		}																		\
+	}
+
+
 namespace cv
 {
 
