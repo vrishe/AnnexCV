@@ -35,6 +35,12 @@
     <ClInclude Include="src\susan_template.cpp">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="include\sqi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sqi_template.cpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\extension.cpp">
@@ -47,6 +53,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\init_module.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sqi.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

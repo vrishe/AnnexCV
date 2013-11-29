@@ -1,4 +1,3 @@
-
 #include "precomp.h"
 
 #include "extension.h"

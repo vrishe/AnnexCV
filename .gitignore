@@ -4,3 +4,6 @@ ipch
 /*.opensdf
 int.dir
 staticlib
+/*.suo
+
+/AnnexCV/*.user

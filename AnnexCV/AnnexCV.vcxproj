@@ -88,12 +88,15 @@
     <ClInclude Include="include\init_module.h" />
     <ClInclude Include="include\internal\private.h" />
     <ClInclude Include="include\precomp.h" />
+    <ClInclude Include="include\sqi.h" />
     <ClInclude Include="include\susan.h" />
     <ClInclude Include="include\tantriggs.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\extension.cpp" />
     <ClCompile Include="src\init_module.cpp" />
+    <ClCompile Include="src\sqi.cpp" />
+    <ClInclude Include="src\sqi_template.cpp" />
     <ClCompile Include="src\susan.cpp" />
     <ClInclude Include="src\susan_template.cpp" />
     <ClCompile Include="src\tantriggs.cpp" />

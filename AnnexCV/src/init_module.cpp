@@ -1,5 +1,3 @@
-
-
 #include "precomp.h"
 
 #include "init_module.h"

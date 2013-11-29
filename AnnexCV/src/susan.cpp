@@ -1,5 +1,3 @@
-
-
 #include "precomp.h"
 
 #include "susan.h"

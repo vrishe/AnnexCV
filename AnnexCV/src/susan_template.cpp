@@ -1,4 +1,3 @@
-
 #include "extension.h"
 
 namespace cv 
