@@ -57,7 +57,7 @@ public:															\
         return new classname;																						\
     }																												\
 																													\
-    static ::cv::AlgorithmInfo& classname##_info_auto = ::cv::AlgorithmInfo(algname, create##classname##_hidden);	\
+    static ::cv::AlgorithmInfo classname##_info_auto = ::cv::AlgorithmInfo(algname, create##classname##_hidden);	\
 																													\
     ::cv::AlgorithmInfo* classname::info() const																	\
     {																												\

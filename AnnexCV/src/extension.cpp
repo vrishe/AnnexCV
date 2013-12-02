@@ -119,6 +119,8 @@ namespace cv
 			}
 		}
 	}
+
+	// TODO: get rid of bad reference binding at the dst.getMat() this is out of standard
 	void discreteGraymapHistogram(const cv::Mat &src, cv::OutputArray dst)
 	{
 		int sdepth = src.depth();
@@ -170,7 +172,7 @@ namespace cv
 		std::vector<double> img_idx(img_val.size());
 
 		for (int r = 0, rmax = src.rows; r < rmax; ++r)
-			std::memcpy(&img_val[r * src.cols], src.ptr<_ElemT>(r), src.cols);
+			::memcpy(&img_val[r * src.cols], src.ptr<_ElemT>(r), src.cols);
 		std::sort(img_val.begin(), img_val.end());
 
 		for (size_t i = 0, imax = img_val.size(); i < imax; ++i)

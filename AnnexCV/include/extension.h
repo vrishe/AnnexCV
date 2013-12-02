@@ -94,7 +94,7 @@ namespace cv
 	}
 
 	template<typename _Vt, int _cn>
-	inline cv::Vec<_Vt, _cn> operator*(const cv::Vec<_Vt, _cn> &pt, _Vt scalar) 
+	inline cv::Vec<_Vt, _cn> operator*(const cv::Vec<_Vt, _cn> &v, _Vt scalar) 
 	{ 
 		cv::Vec<_Vt, _cn> vector;
 		for (int i = 0; i < _cn; ++i)

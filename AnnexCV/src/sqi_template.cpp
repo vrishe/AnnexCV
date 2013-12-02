@@ -26,7 +26,7 @@ namespace cv
 	};
 
 	template <typename _St, typename _Kt, typename _Rt>
-	void SelfQuotientImageFilter<_St, _Kt, _Rt>::init (unsigned radius = 1U, double sigma = -1.0)
+	void SelfQuotientImageFilter<_St, _Kt, _Rt>::init (unsigned radius, double sigma)
 	{
 		CV_Assert(radius > 0);
 
